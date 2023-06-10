@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 2.8.11)
+cmake_minimum_required (VERSION 3.25)
 project(LauncherOSX)
 
 SET(HPL2_SOURCE_DIR ${HPL2_INCLUDE_DIR}/../sources)

@@ -24,6 +24,7 @@
 #define K_FBXSDK
 #define K_NODLL
 
+#if defined FBXLIB
 
 #include <fbxsdk.h>
 
@@ -168,4 +169,5 @@ namespace hpl {
 	};
 
 };
+#endif
 #endif // HPL_MESH_LOADER_FBX_H

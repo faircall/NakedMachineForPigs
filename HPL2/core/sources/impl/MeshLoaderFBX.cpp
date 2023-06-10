@@ -43,6 +43,8 @@
 
 #include "math/Math.h"
 
+#if defined FBXLIB
+
 #ifdef IOS_REF
 	#undef  IOS_REF
 	#define IOS_REF (*(mpSdkManager->GetIOSettings()))
@@ -1534,3 +1536,4 @@ namespace hpl {
 		return lStatus;
 	}
 }
+#endif

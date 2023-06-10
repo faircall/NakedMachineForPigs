@@ -448,7 +448,7 @@ namespace hpl {
 			size_t lTotalDataSize = mlDataPos - lStartPos - 4;
 			size_t lChunk = lTotalDataSize >> DATA_CHUNK_BITS;
 			
-			int *pSizeDataPtr = (int*)mvDataChunks[lChunk][lTotalDataSize - (lChunk << DATA_CHUNK_BITS)];
+			int *pSizeDataPtr = reinterpret_cast<int*>(mvDataChunks[lChunk][lTotalDataSize - (lChunk << DATA_CHUNK_BITS)]);
 			*pSizeDataPtr = lTotalDataSize;
 		}
 

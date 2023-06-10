@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 2.8)
+cmake_minimum_required (VERSION 3.25)
 IF(APPLE)
 #    SET(CMAKE_XCODE_ATTRIBUTE_GCC_VERSION "com.apple.compilers.llvmgcc42")
     SET(CMAKE_OSX_DEPLOYMENT_TARGET 10.6)
@@ -76,13 +76,9 @@ endif()
 add_subdirectory(Game/src/game game)
 IF(APPLE)
     add_subdirectory(Game/src/launcher-macosx launcher)
+    add_custom_target(BuildGame)
+    add_dependencies(BuildGame Amnesia Launcher)
 ELSE()
-    add_subdirectory(Game/src/launcher launcher)
+    add_custom_target(BuildGame)
+    add_dependencies(BuildGame Amnesia)
 ENDIF()
-
-add_custom_target(BuildGame)
-add_dependencies(BuildGame Amnesia Launcher)
-
-add_custom_Target(BuildSteamGame)
-add_dependencies(BuildSteamGame AmnesiaSteam Launcher)
-
