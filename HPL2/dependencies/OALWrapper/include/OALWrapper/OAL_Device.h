@@ -39,7 +39,7 @@ public:
 
 	///////////////////////////////////////////////////////
 	// Info methods
-    
+
 	inline std::string& GetDeviceName ()				{ return msDeviceName;	}
 	inline std::string& GetVendorName ()				{ return msVendorName;	}
 	inline std::string& GetRenderer ()					{ return msRenderer;	}
@@ -49,13 +49,13 @@ public:
 	inline bool* GetExtensions ()					{ return mvbExtensions; }
 	inline bool IsExtensionAvailable (int alWhich)	{ if ( (alWhich >= 0) && (alWhich < NUM_EXTENSIONS) ) return mvbExtensions[alWhich]; else return false; }
 	inline bool IsEFXActive ()						{ return (mbEFXActive && (mpEFXManager!=NULL)); }
-	inline int	GetEFXSends()						{ return mlEFXSends; } 
-	static std::string& GetExtensionName(int alWhich); 
+	inline int	GetEFXSends()						{ return mlEFXSends; }
+	static std::string& GetExtensionName(int alWhich);
 	static std::string GetDefaultDeviceName();
 	static std::vector<std::string>GetOutputDevices();
 
-	
-	
+
+
 	inline const ALCdevice*		GetDevice()			{ return mpDevice; }
 	inline cOAL_SourceManager*	GetSourceManager()	{ return mpSourceManager; }
 	inline cOAL_EFXManager*		GetEFXManager()		{ return mpEFXManager; }
@@ -84,7 +84,7 @@ public:
 	cOAL_Source* GetSource ( int alSourceHandle );
 
 	///////////////////////////////////////////////////////
-    // Listener Management
+	// Listener Management
 	void SetListenerGain ( const float afGain );
 	void SetListenerPosition (const float* apPos );
 	void SetListenerVelocity (const float* apVel );
@@ -102,7 +102,7 @@ private:
 	int					mlMajorVersion;
 	int					mlMinorVersion;
 	bool				mvbExtensions[NUM_EXTENSIONS];
-    ALCdevice*			mpDevice;
+	ALCdevice*			mpDevice;
 	ALCcontext*			mpContext;
 
 
@@ -111,7 +111,7 @@ private:
 	cOAL_EFXManager*	mpEFXManager;
 	bool				mbEFXActive;
 	int					mlEFXSends;
-   
+
 	tSampleList mlstSamples;
 	tStreamList	mlstStreams;
 };

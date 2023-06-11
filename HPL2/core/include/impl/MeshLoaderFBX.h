@@ -24,10 +24,8 @@
 #define K_FBXSDK
 #define K_NODLL
 
-#if defined FBXLIB
 
 #include <fbxsdk.h>
-
 #include "math/MathTypes.h"
 
 #include "resources/MeshLoader.h"
@@ -138,27 +136,27 @@ namespace hpl {
 
 		//bool IsSupported(const tWString asFileType);
 	private:
-		cAnimation* LoadAnimations(KFbxScene *apScene,KFbxImporter * apImporter, const tWString& asFile, cSkeleton * apSkeleton);
-		void LoadAnimationRec(KFbxScene *apScene,KFbxNode * apNode,cAnimation* apAnimation, const tString &asAnimStackName, 
+		cAnimation* LoadAnimations(fbxsdk::FbxScene *apScene,FbxImporter * apImporter, const tWString& asFile, cSkeleton * apSkeleton);
+		void LoadAnimationRec(fbxsdk::FbxScene *apScene,FbxNode * apNode,cAnimation* apAnimation, const tString &asAnimStackName, 
 		int alDepth,cVector3f vParentT, cVector3f vParentS, cVector3f vParentR, cSkeleton * apSkeleton);
 
 		void MakeFinalBonesRec(cBone* apBone, cMatrixf a_mtxParentGlobal, cMatrixf a_mtxParentGlobalUnscaled);
 
-		void LoadSkeletonRec(cBone* apBone,KFbxNode *apNode, int alDepth);
-		void LoadSceneRec(tSubMeshDataList* apSubMeshList,cSkeleton* apSkeleton, cNode3D* apHplNode,KFbxNode *apNode, int alDepth, bool animationOnly);
-		void LoadMeshData(tSubMeshDataList* apSubMeshList,cSkeleton* apSkeleton, cNode3D* apHplNode, KFbxNode *apNode, int alDepth, bool animationOnly);
+		void LoadSkeletonRec(cBone* apBone,FbxNode *apNode, int alDepth);
+		void LoadSceneRec(tSubMeshDataList* apSubMeshList,cSkeleton* apSkeleton, cNode3D* apHplNode,FbxNode *apNode, int alDepth, bool animationOnly);
+		void LoadMeshData(tSubMeshDataList* apSubMeshList,cSkeleton* apSkeleton, cNode3D* apHplNode, FbxNode *apNode, int alDepth, bool animationOnly);
 
-		cBone* LoadSkeletonData(cBone* apBone,KFbxNode *apNode, int alDepth);
+		cBone* LoadSkeletonData(cBone* apBone,FbxNode *apNode, int alDepth);
 
 		const char* GetTabs(int alDepth);
-		const char* GetAttrName(KFbxNodeAttribute::EAttributeType alNum);
-		const char* GetSkelTypeName(KFbxSkeleton::ESkeletonType alNum);
-		const char* GetRotOrderName(ERotationOrder alNum);
-		const char* GetLinkModeName(KFbxLink::ELinkMode alNum);
+		const char* GetAttrName(FbxNodeAttribute::EType alNum);
+		const char* GetSkelTypeName(FbxSkeleton::EType alNum);
+		
+		const char* GetLinkModeName(fbxsdk::FbxCluster::ELinkMode alNum);
 
-		bool LoadScene(KFbxSdkManager* pSdkManager, KFbxDocument* pScene, const char* pFilename);
+		bool LoadScene(FbxManager* pSdkManager, FbxDocument* pScene, const char* pFilename);
 
-		KFbxSdkManager* mpSdkManager;
+		FbxManager* mpSdkManager;
 
 		tString msTemp;
 		bool mbLog;
@@ -169,5 +167,4 @@ namespace hpl {
 	};
 
 };
-#endif
 #endif // HPL_MESH_LOADER_FBX_H

@@ -1,0 +1,3 @@
+/home/ats/Downloads/AmnesiaAMachineForPigs-master/HPL2/dependencies/Newton/CMakeFiles/Newton.dir
+/home/ats/Downloads/AmnesiaAMachineForPigs-master/HPL2/dependencies/Newton/CMakeFiles/edit_cache.dir
+/home/ats/Downloads/AmnesiaAMachineForPigs-master/HPL2/dependencies/Newton/CMakeFiles/rebuild_cache.dir

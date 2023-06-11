@@ -10,7 +10,7 @@
 	@author Luis Rodero
 	@date 2006-10-02
 	@version 0.1
-	Derived class for containing Ogg Vorbis Sample data 
+	Derived class for containing Ogg Vorbis Sample data
 */
 
 #include "OALWrapper/OAL_OggSample.h"
@@ -104,13 +104,13 @@ bool cOAL_OggSample::CreateFromFile(const wstring &asFilename)
 		return false;
 
 	Reset();
-	
+
 	int lOpenResult;
 
 	msFilename = asFilename;
 
 	FILE *fileHandle = OpenFileW(asFilename, L"rb");
-	
+
 	// If no file is present, set the error status and return
 	if(!fileHandle)
 	{
@@ -152,7 +152,7 @@ bool cOAL_OggSample::CreateFromBuffer(const void* apBuffer, size_t aSize)
 	}
 
 	// If not an Ogg file, set status and exit
-	OAL_OggMemoryFile fakeFile = { (unsigned char*)apBuffer, aSize, 0 };
+	OAL_OggMemoryFile fakeFile = { (unsigned char*)apBuffer, (ogg_int64_t)aSize, 0 };
 	OggVorbis_File ovFileHandle;
 	if((lOpenResult = ov_open_callbacks(&fakeFile, &ovFileHandle, NULL, 0, OAL_CALLBACKS_BUFFER))<0)
 	{
@@ -185,9 +185,9 @@ bool cOAL_OggSample::LoadOgg(OggVorbis_File& ovFileHandle)
 	// Loop which loads chunks of decoded data into a buffer
 	while(!bEOF)
 	{
-		long lChunkSize = ov_read ( &ovFileHandle			,										
-									pPCMBuffer + lDataSize	, 
-									STREAMING_BLOCK_SIZE	, 
+		long lChunkSize = ov_read ( &ovFileHandle			,
+									pPCMBuffer + lDataSize	,
+									STREAMING_BLOCK_SIZE	,
 									SYS_ENDIANNESS			,
 									2, 1, &lCurrent_section );
 
@@ -202,7 +202,7 @@ bool cOAL_OggSample::LoadOgg(OggVorbis_File& ovFileHandle)
 			mbStatus = false;
 			return false;
 		}
-		else 
+		else
 			lDataSize += lChunkSize;
 	}
 

@@ -1,18 +1,18 @@
 /*
  * Copyright © 2011-2020 Frictional Games
- * 
+ *
  * This file is part of Amnesia: A Machine For Pigs.
- * 
+ *
  * Amnesia: A Machine For Pigs is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version. 
+ * (at your option) any later version.
 
  * Amnesia: A Machine For Pigs is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with Amnesia: A Machine For Pigs.  If not, see <https://www.gnu.org/licenses/>.
  */
@@ -20,7 +20,7 @@
 #ifndef HPL_PHYSICS_MATERIAL_NEWTON_H
 #define HPL_PHYSICS_MATERIAL_NEWTON_H
 
-#if defined(__linux__) || defined(__APPLE__)
+#if defined(__linux__) || defined(__APPLE__) || defined(__FreeBSD__)
 #include <unistd.h>
 #endif
 #include <Newton.h>
@@ -30,7 +30,7 @@
 namespace hpl {
 
 	class iPhysicsBody;
-	
+
 	//------------------------------------------
 
 	class cNewtonLockBodyUntilReturn
@@ -38,7 +38,7 @@ namespace hpl {
 	public:
 		cNewtonLockBodyUntilReturn(const NewtonBody* apNewtonBody);
 		~cNewtonLockBodyUntilReturn();
-	private: 
+	private:
 		const NewtonBody* mpNewtonBody;
 	};
 
@@ -76,12 +76,12 @@ namespace hpl {
 
 		/*static int BeginContactCallback(const NewtonMaterial* apMaterial,
 										const NewtonBody* apBody0, const NewtonBody* apBody1, int alThreadIndex);
-		
+
 		static int ProcessContactCallback(	const NewtonMaterial* apMaterial,
-											const NewtonBody* apBody0, const NewtonBody* apBody1, 
+											const NewtonBody* apBody0, const NewtonBody* apBody1,
 											dFloat afTimestep, int alThreadIndex);
-		
-		static void EndContactCallback(		const NewtonMaterial* apMaterial, const NewtonBody* apBody0, const NewtonBody* apBody1, 
+
+		static void EndContactCallback(		const NewtonMaterial* apMaterial, const NewtonBody* apBody0, const NewtonBody* apBody1,
 											int alThreadIndex);*/
 
        	NewtonWorld *mpNewtonWorld;

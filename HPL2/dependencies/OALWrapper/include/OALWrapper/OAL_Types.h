@@ -38,7 +38,7 @@
 #define OAL_EAX_RAM 10
 
 ////////////////////////////////////////////////////
-// Specifies the size of the memory unit in streaming ( currently 4 KB ) 
+// Specifies the size of the memory unit in streaming ( currently 4 KB )
 // (buffer sizes are set using multiples of this unit)
 #define STREAMING_BLOCK_SIZE 4096
 //#define BUFFERCOUNT 8
@@ -60,15 +60,9 @@
 struct SDL_mutex;
 struct SDL_Thread;
 
-#ifdef __APPLE__
-    // system headers
-    #include <OpenAL/al.h>
-    #include <OpenAL/alc.h>
-#else
-    #include <AL/al.h>
-    #include <AL/alc.h>
-#endif
-// Included headers not available on all systems
+// This expects the headers from the OALWrapper source (to keep things consistent and clean)
+#include <AL/al.h>
+#include <AL/alc.h>
 #include <AL/alext.h>
 #include <AL/efx.h>
 
@@ -144,7 +138,7 @@ typedef tOALFilterList::iterator		tOALFilterListIt;
 typedef std::vector<cOAL_SourceSend*>			tSendVector;
 typedef tSendVector::iterator	tSendVectorIt;
 
-typedef enum 
+typedef enum
 {
 	eOAL_SourceStatus_Free,
 	eOAL_SourceStatus_Busy,
@@ -171,7 +165,7 @@ typedef enum
 //////////////////////////////////////////
 
 
-// Function pointers 
+// Function pointers
 ////////////////////
 
 // Effect slots

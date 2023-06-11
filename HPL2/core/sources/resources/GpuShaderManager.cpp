@@ -1,18 +1,18 @@
 /*
  * Copyright © 2011-2020 Frictional Games
- * 
+ *
  * This file is part of Amnesia: A Machine For Pigs.
- * 
+ *
  * Amnesia: A Machine For Pigs is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version. 
+ * (at your option) any later version.
 
  * Amnesia: A Machine For Pigs is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with Amnesia: A Machine For Pigs.  If not, see <https://www.gnu.org/licenses/>.
  */
@@ -41,7 +41,7 @@ namespace hpl {
 
 	//-----------------------------------------------------------------------
 
-	cGpuShaderManager::cGpuShaderManager(cFileSearcher *apFileSearcher,iLowLevelGraphics *apLowLevelGraphics, 
+	cGpuShaderManager::cGpuShaderManager(cFileSearcher *apFileSearcher,iLowLevelGraphics *apLowLevelGraphics,
 		iLowLevelResources *apLowLevelResources,iLowLevelSystem *apLowLevelSystem)
 		: iResourceManager(apFileSearcher, apLowLevelResources,apLowLevelSystem)
 	{
@@ -52,13 +52,15 @@ namespace hpl {
 		mpPreprocessParser->GetEnvVarContainer()->Add("ScreenWidth",mpLowLevelGraphics->GetScreenSizeInt().x);
 		mpPreprocessParser->GetEnvVarContainer()->Add("ScreenHeigth",mpLowLevelGraphics->GetScreenSizeInt().y);
 
-		#ifdef WIN32
-			mpPreprocessParser->GetEnvVarContainer()->Add("OS_Windows");
-		#elif defined(__APPLE__)
-			mpPreprocessParser->GetEnvVarContainer()->Add("OS_OSX");
-		#elif defined(__linux__)
-			mpPreprocessParser->GetEnvVarContainer()->Add("OS_Linux");
-		#endif
+#ifdef WIN32
+		mpPreprocessParser->GetEnvVarContainer()->Add("OS_Windows");
+#elif defined(__APPLE__)
+		mpPreprocessParser->GetEnvVarContainer()->Add("OS_OSX");
+#elif defined(__linux__)
+		mpPreprocessParser->GetEnvVarContainer()->Add("OS_Linux");
+#elif defined(__FreeBSD__)
+		mpPreprocessParser->GetEnvVarContainer()->Add("OS_FreeBSD");
+#endif
 	}
 
 	cGpuShaderManager::~cGpuShaderManager()
@@ -110,7 +112,7 @@ namespace hpl {
 		{
 			tString sFileData;
 			tString sParsedOutput;
-		
+
 			/////////////////////////////////
 			//Get file from file searcher
 			tWString sPath = mpFileSearcher->GetFilePath(asName);
@@ -130,12 +132,12 @@ namespace hpl {
 			/////////////////////////////////
 			//Parse file
 			mpPreprocessParser->Parse(&sFileData, &sParsedOutput,apVarContainer,cString::GetFilePathW(sPath));
-			
+
 			/////////////////////////////////
 			//Compile
 			pShader = mpLowLevelGraphics->CreateGpuShader(asName, aType);
 			pShader->SetFullPath(sPath);
-			
+
 			if(pShader->CreateFromString(sParsedOutput.c_str())==false)
 			{
 				Error("Couldn't create program '%s'\n",asName.c_str());
@@ -155,17 +157,17 @@ namespace hpl {
 					const tString& sVarName = varIt->first;
 					const tString& sVarVal = varIt->second;
 					if(sVarName == "") continue;
-                    
+
 					tStringVec vStrings;
 					tString sSepp = "_";
 					cString::GetStringVec(sVarName,vStrings,&sSepp);
 					if(vStrings.size()>=2 && vStrings[0]=="sampler")
 					{
 						int lUnit = cString::ToInt(sVarVal.c_str(), 0);
-						
+
 						pShader->AddSamplerUnit(vStrings[1], lUnit);
 					}
-					
+
 				}
 			}
 		}
@@ -194,8 +196,8 @@ namespace hpl {
 			if(pShader)pShader->IncUserCount();
 			else Error("Couldn't load program '%s'\n",asName.c_str());
 		}
-		
-		
+
+
 		EndLoad();
 		return pShader;
      }
@@ -227,7 +229,7 @@ namespace hpl {
 	//////////////////////////////////////////////////////////////////////////
 
 	//-----------------------------------------------------------------------
-	
+
 	bool cGpuShaderManager::IsShaderSupported(const tString& asName, eGpuShaderType aType)
 	{
 		/////////////////////////////////
@@ -241,12 +243,12 @@ namespace hpl {
 		/////////////////////////////////
 		//Compile
 		iGpuShader* pShader = mpLowLevelGraphics->CreateGpuShader(asName, aType);
-		
+
 		bool bRet = pShader->CreateFromFile(sPath, "main", false);
 		hplDelete(pShader);
-		
+
 		return bRet;
 	}
-	
+
 	//-----------------------------------------------------------------------
 }

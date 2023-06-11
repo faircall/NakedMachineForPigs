@@ -51,7 +51,7 @@ add_executable(Amnesia MACOSX_BUNDLE
 )
 target_link_libraries(Amnesia HPL2)
 set_target_properties(Amnesia PROPERTIES
-	OUTPUT_NAME "AmnesiaAMFP"
+	OUTPUT_NAME "AmnesiaAMFP.bin.x86_64"
 	COMPILE_DEFINITIONS "${compile_defs}"
     MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/Game-Info.plist"
 	MACOSX_BUNDLE_ICON_FILE "aamfp.icns"
@@ -67,7 +67,7 @@ add_executable(AmnesiaDemo MACOSX_BUNDLE EXCLUDE_FROM_ALL
 )
 target_link_libraries(AmnesiaDemo HPL2)
 set_target_properties(AmnesiaDemo PROPERTIES
-	OUTPUT_NAME "AmnesiaAMFPDemo"
+	OUTPUT_NAME "AmnesiaAMFP.bin.x86_64_Demo"
 	COMPILE_DEFINITIONS "${demo_compile_defs}"
     MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/Game-Info.plist"
 	MACOSX_BUNDLE_ICON_FILE "aamfp.icns"

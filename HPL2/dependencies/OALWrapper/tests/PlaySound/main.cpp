@@ -1,6 +1,7 @@
 #include "OALWrapper/OAL_Funcs.h"
 #include "OALWrapper/OAL_Sample.h"
 #include <cstdio>
+#include <cstdlib>
 #include <string>
 
 using namespace std;
@@ -76,7 +77,7 @@ int main (int argc, char *argv[])
 		size_t pos = ftell(fp);
 		fseek(fp, 0, SEEK_SET);
 		void *buffer = malloc(pos);
-	
+
 		fread(buffer, pos, 1, fp);
 		fclose(fp);
 
@@ -92,7 +93,7 @@ int main (int argc, char *argv[])
 	if (pSample) OAL_Sample_Unload ( pSample );
 
     printf ("Cleaning up...\n");
-    
+
     OAL_Close ();
 
 	return 0;
