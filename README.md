@@ -20,12 +20,11 @@ Building
 
 First you will need to grab the FBX SDK: https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0
 After that, you'll need to install it (follow the instructions) and then change the CMakeLists.txt file to correspond to the Include and Library directories you chose.
+If using Windows, just add the path to the SDK include files in the HPL2 project.
 
 Go into the directory you cloned this to, enter the 'Game/src' directory and perform a 'mkdir build' and 'cmake ..'
 
 All dependencies are included here and so after it finished the setup, run 'make'.  Then grab a beverage because it takes about 20 minutes.
-
-Please note, that this project deals only with GNU/Linux and macOS builds.  Windows users aren't serviced here, sorry.
 
 License Information
 -------------------
