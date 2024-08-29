@@ -1,0 +1,1715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\ai\AI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\ai\AINodeContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\ai\AINodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\ai\AStar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\ai\StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\engine\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\engine\EngineTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\engine\SaveGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\engine\ScriptFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\engine\Updater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\generate\Generate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\generate\GenerateTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\generate\VoxelMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\AnimationTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Bone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\BoneState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\DecalCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\FontData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\FrameBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\FrameSubImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\FrameTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\GPUProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\GPUShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\GraphicsTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\LowLevelGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\MaterialType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\MaterialType_BasicSolid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\MaterialType_BasicTranslucent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\MaterialType_Decal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\MaterialType_Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\MeshCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\PostEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\PostEffectComposite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\PostEffect_Bloom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\PostEffect_ColorConvTex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\PostEffect_ColorGrading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\PostEffect_ImageTrail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\PostEffect_RadialBlur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\ProgramComboManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\RenderFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\RenderList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Renderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\RendererDeferred.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\RendererSimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\RendererWireFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\Skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\SubMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\graphics\TextureCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\Gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiGfxElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiMaterialBasicTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiPopUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiPopUpColorPicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiPopUpFilePicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiPopUpMessageBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiPopUpUIKeyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\GuiSkin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\Widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetBaseClasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetCheckBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetContextMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetDummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetListBoxBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetMainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetMenuItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetMultiPropertyListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetTabFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetTextBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\gui\WidgetWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\haptic\Haptic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\haptic\LowLevelHaptic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\Action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\ActionGamepadAxis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\ActionGamepadButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\ActionGamepadHat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\ActionHaptic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\ActionKeyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\ActionMouseButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\Gamepad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\InputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\input\Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\math\BoundingVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\math\CRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\math\Frustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\math\Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\math\MathTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\math\MeshTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\math\Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\math\Spring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\CharacterBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsJointBall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsJointHinge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsJointScrew.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsJointSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsRope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\PhysicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\SurfaceData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\physics\VerletParticle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\AnimationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\BinaryBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\BitmapLoaderHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\ConfigFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\EngineFileLoading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\EntFileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\EntityLoader_Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\FileSearcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\FontManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\GpuShaderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\ImageManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\LanguageFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\MaterialManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\MeshLoaderHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\MeshManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\ParticleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\ResourceBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\ResourceLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\ResourceLoaderHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\Resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\ScriptManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\SoundEntityManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\VideoLoaderHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\VideoManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\WorldLoaderHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\WorldLoaderHplMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\resources\XmlDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\AnimationState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\Beam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\BillBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\DummyRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\Entity3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\FogArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\GuiSetEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\LightBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\LightPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\LightSpot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\MeshEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\Node3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\NodeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\ParticleEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\ParticleEmitter_UserData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\RenderableContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\RenderableContainer_BoxTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\RenderableContainer_DynBoxTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\RenderableContainer_List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\RopeEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\SoundEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\SubMeshEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\Viewport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\scene\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\sound\LowLevelSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\sound\MusicHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\sound\Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\sound\SoundChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\sound\SoundEntityData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\sound\SoundHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\Container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\LogicTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\MemoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\Platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\PreprocessParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\SHA1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\SerializeClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\system\Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\BitmapLoaderDevil.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\BitmapLoaderDevilDDS.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\BitmapLoaderDevilMisc.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\CharacterBodyNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\CollideShapeNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\FrameBufferGL.cpp">
+      <Filter>OpenGL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\GLSLProgram.cpp">
+      <Filter>OpenGL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\GLSLShader.cpp">
+      <Filter>OpenGL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\GamepadSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\GamepadSDL2.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\KeyboardSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\LowLevelGraphicsSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\LowLevelInputSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\LowLevelPhysicsNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\LowLevelResourcesSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\LowLevelSoundOpenAL.cpp">
+      <Filter>OpenAL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\LowLevelSystemSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\MeshLoaderCollada.cpp">
+      <Filter>Mesh Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\MeshLoaderColladaHelpers.cpp">
+      <Filter>Mesh Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\MeshLoaderColladaLoader.cpp">
+      <Filter>Mesh Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\MeshLoaderMSH.cpp">
+      <Filter>Mesh Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\MouseSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\MutexSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\OcclusionQueryOGL.cpp">
+      <Filter>OpenGL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\OpenALSoundChannel.cpp">
+      <Filter>OpenAL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\OpenALSoundData.cpp">
+      <Filter>OpenAL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\OpenALSoundEnvironment.cpp">
+      <Filter>OpenAL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsBodyNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsControllerNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsJointBallNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsJointHingeNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsJointScrewNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsJointSliderNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsMaterialNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsRopeNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\PhysicsWorldNewton.cpp">
+      <Filter>Newton Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\SDLEngineSetup.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\SDLFontData.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\SDLTexture.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\SqScript.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\ThreadSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\TimerSDL.cpp">
+      <Filter>SDL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\VertexBufferOGL_Array.cpp">
+      <Filter>OpenGL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\VertexBufferOGL_VBO.cpp">
+      <Filter>OpenGL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\VertexBufferOpenGL.cpp">
+      <Filter>OpenGL Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\VideoStreamTheora.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\XmlDocumentTiny.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\scriptarray.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\scripthelper.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\scriptstdstring.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\scriptstdstring_utils.cpp">
+      <Filter>Implementation Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\tinyXml\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\tinyXml\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\tinyXml\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\sources\impl\tinyXml\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HPL2\core\sources\impl\PlatformWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HPL2\core\sources\impl\MutexWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\HPL2\core\sources\impl\ThreadWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\ResourcesLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\ResourcesLocation.h.in">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\ai\AI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\ai\AINodeContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\ai\AINodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\ai\AStar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\ai\StateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\engine\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\engine\EngineInitVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\engine\EngineTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\engine\LowLevelEngineSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\engine\SaveGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\engine\ScriptFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\engine\Updateable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\engine\Updater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\generate\Generate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\generate\GenerateTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\generate\VoxelMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\AnimationTrack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Bone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\BoneState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\DecalCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\FontData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\FrameBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\FrameBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\FrameSubImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\FrameTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\GPUProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\GPUShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\GraphicsTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\LowLevelGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\MaterialType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\MaterialType_BasicSolid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\MaterialType_BasicTranslucent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\MaterialType_Decal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\MaterialType_Water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\MeshCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\OcclusionQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\PostEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\PostEffectComposite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\PostEffect_Bloom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\PostEffect_ColorConvTex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\PostEffect_ColorGrading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\PostEffect_ImageTrail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\PostEffect_RadialBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\ProgramComboManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\RenderFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\RenderList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Renderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\RendererDeferred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\RendererSimple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\RendererWireFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Skeleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\SubMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\TextureCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\graphics\VideoStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\Gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiGfxElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiMaterialBasicTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiPopUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiPopUpColorPicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiPopUpFilePicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiPopUpMessageBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiPopUpUIKeyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiSkin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\GuiTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\Widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetBaseClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetCheckBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetContextMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetDummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetListBoxBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetMainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetMenuItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetMultiPropertyListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetTabFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetTextBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\gui\WidgetWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\haptic\Haptic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\haptic\HapticForce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\haptic\HapticShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\haptic\HapticSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\haptic\HapticTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\haptic\LowLevelHaptic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\hpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\ActionGamepadAxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\ActionGamepadButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\ActionGamepadHat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\ActionHaptic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\ActionKeyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\ActionMouseButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\Gamepad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\InputDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\InputTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\LowLevelInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\input\Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\BoundingVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\CRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\Frustum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\MathTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\MeshTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\PidController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\Spring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\math\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\CharacterBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\CollideData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\CollideShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\LowLevelPhysics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsJointBall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsJointHinge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsJointScrew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsJointSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsRope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\PhysicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\SurfaceData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\physics\VerletParticle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\AnimationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\BinaryBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\BitmapLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\BitmapLoaderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ConfigFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\EngineFileLoading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\EntFileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\EntityLoader_Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\FileSearcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\FontManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\GpuShaderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ImageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\LanguageFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\LowLevelResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\MaterialManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\MeshLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\MeshLoaderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\MeshManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ParticleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ResourceBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ResourceLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ResourceLoaderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ResourcesTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\ScriptManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\SoundEntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\VideoLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\VideoLoaderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\VideoManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\WorldLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\WorldLoaderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\WorldLoaderHplMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\resources\XmlDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\AnimationState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\Beam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\BillBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\DummyRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\Entity3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\FogArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\GuiSetEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\LightBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\LightPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\LightSpot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\MeshEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\Node3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\NodeState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\ParticleEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\ParticleEmitter_UserData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\RenderableContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\RenderableContainer_BoxTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\RenderableContainer_DynBoxTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\RenderableContainer_List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\RopeEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\SceneTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\SoundEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\SubMeshEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\Viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\scene\World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\LowLevelSound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\MusicHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\SoundChannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\SoundData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\SoundEntityData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\SoundEnvironment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\SoundHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\sound\SoundTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\BinTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\Container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\LogicTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\LowLevelSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\MemoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\Mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\PreprocessParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\SHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\Script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\SerializeClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\SystemTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\system\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\BuildID_HPL2_0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\BitmapLoaderDevil.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\BitmapLoaderDevilDDS.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\BitmapLoaderDevilMisc.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\CGProgram.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\CGShader.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\CharacterBodyNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\CollideShapeNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\FmodSoundChannel.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\FmodSoundData.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\FrameBufferGL.h">
+      <Filter>OpenGL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\GLSLProgram.h">
+      <Filter>OpenGL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\GLSLShader.h">
+      <Filter>OpenGL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\GamepadSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\GamepadSDL2.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\GamepadXInput.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\KeyboardSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\LowLevelGraphicsSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\LowLevelInputSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\LowLevelPhysicsNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\LowLevelResourcesSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\LowLevelSoundFmod.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\LowLevelSoundOpenAL.h">
+      <Filter>OpenAL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\LowLevelSystemSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\MeshLoaderCollada.h">
+      <Filter>Mesh Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\MeshLoaderMSH.h">
+      <Filter>Mesh Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\MouseSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\MutexSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\MutexWin32.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\OcclusionQueryOGL.h">
+      <Filter>OpenGL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\OpenALSoundChannel.h">
+      <Filter>OpenAL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\OpenALSoundData.h">
+      <Filter>OpenAL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\OpenALSoundEnvironment.h">
+      <Filter>OpenAL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PBuffer.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsBodyNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsControllerNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsJointBallNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsJointHingeNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsJointNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsJointScrewNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsJointSliderNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsMaterialNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsRopeNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\PhysicsWorldNewton.h">
+      <Filter>Newton Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\SDLEngineSetup.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\SDLFontData.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\SDLTexture.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\SqScript.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\TaskKeyHook.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\ThreadSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\ThreadWin32.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\TimerSDL.h">
+      <Filter>SDL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\VertexBufferOGL_Array.h">
+      <Filter>OpenGL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\VertexBufferOGL_VBO.h">
+      <Filter>OpenGL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\VertexBufferOpenGL.h">
+      <Filter>OpenGL Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\VideoStreamTheora.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\XmlDocumentTiny.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\scriptarray.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\scripthelper.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\scriptstdstring.h">
+      <Filter>Implementation Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\tinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\core\include\impl\tinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\build\CMakeFiles\50189b01ab79fa3db3a52d5497cdef0d\BuildID_HPL2_0_.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D7BDC932-31ED-3B7E-89DF-F7FBCB9C70DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E37B8995-4B82-3F6B-983F-BDF0D3C52748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation Specific">
+      <UniqueIdentifier>{5A02AE20-A3F4-33F1-9C47-35CF32418A88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh Loaders">
+      <UniqueIdentifier>{EEC4B52A-B53E-337B-A9E6-94E8008A0319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Newton Specific">
+      <UniqueIdentifier>{7479E001-C426-36C7-B451-82E371DD127D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenAL Specific">
+      <UniqueIdentifier>{46A710A3-0FC9-3AE5-8134-B96BD774B348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL Specific">
+      <UniqueIdentifier>{8793B2BC-06D7-334E-8D9F-3E86DD5F416B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL Specific">
+      <UniqueIdentifier>{F98A9A41-2993-3002-87D8-6FD71D5465AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{862D185C-79F1-39EC-80DF-E16B28339798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{83F47788-241B-3361-AE52-E4BD965503B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{8D21188C-5602-32FD-90B3-A88F07B59859}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

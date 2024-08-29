@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_AudioData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Effect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Effect_Reverb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_EffectSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_EFX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_EFXManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Loaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_LoggerObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_OggSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_OggStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_WAVSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_CustomStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Playback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_SourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\sources\OAL_Types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_AudioData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_CustomStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Effect_Reverb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_EffectSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_EFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_EFXManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Loaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_LoggerObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_LowLevelObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_OggSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_OggStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Playback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_SourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include\OALWrapper\OAL_WAVSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E37B8995-4B82-3F6B-983F-BDF0D3C52748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{862D185C-79F1-39EC-80DF-E16B28339798}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
