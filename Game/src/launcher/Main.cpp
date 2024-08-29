@@ -28,13 +28,7 @@
 #endif
 #include <GL/gl.h>
 #include <GL/glu.h>
-#if USE_SDL2
 #include <SDL2/SDL.h>
-#elif defined WIN32
-#include "glut.h"
-#elif defined __linux__
-#include <GL/glx.h>
-#endif
 
 
 using namespace hpl;
