@@ -17,6 +17,8 @@
  * along with Amnesia: A Machine For Pigs.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+#include <fbxsdk.h>
+
 #include "impl/MeshLoaderFBX.h"
 
 #include "system/LowLevelSystem.h"

@@ -522,8 +522,8 @@ int GenerateDump(EXCEPTION_POINTERS* pExceptionPointers)
     ExpParam.ExceptionPointers = pExceptionPointers;
     ExpParam.ClientPointers = TRUE;
 
-    bMiniDumpSuccessful = MiniDumpWriteDump(GetCurrentProcess(), GetCurrentProcessId(),
-                    hDumpFile, MiniDumpWithIndirectlyReferencedMemory, &ExpParam, NULL, NULL);
+    //bMiniDumpSuccessful = MiniDumpWriteDump(GetCurrentProcess(), GetCurrentProcessId(),
+    //                hDumpFile, MiniDumpWithIndirectlyReferencedMemory, &ExpParam, NULL, NULL);
 
     return EXCEPTION_EXECUTE_HANDLER;
 }
@@ -727,13 +727,8 @@ bool cLuxBase::InitApp()
 
 	//Get the config file paths
 	msDefaultUserConfigPath = pInitCfg->GetStringW("ConfigFiles", "DefaultUserSettings",_W(""));
-#if USE_SDL2
     msDefaultUserKeyConfigPath = pInitCfg->GetStringW("ConfigFiles", "DefaultUserKeysSDL2", _W(""));
 	msDefaultMainConfigPath = pInitCfg->GetStringW("ConfigFiles", "DefaultMainSettingsSDL2",_W(""));
-#else
-	msDefaultUserKeyConfigPath = pInitCfg->GetStringW("ConfigFiles", "DefaultUserKeys", _W(""));
-	msDefaultMainConfigPath = pInitCfg->GetStringW("ConfigFiles", "DefaultMainSettings",_W(""));
-#endif
 
 	msGameConfigPath = pInitCfg->GetStringW("ConfigFiles", "Game",_W(""));
 	msMenuConfigPath = pInitCfg->GetStringW("ConfigFiles", "Menu",_W(""));

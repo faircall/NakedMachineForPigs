@@ -20,11 +20,6 @@
 #ifdef WIN32
 #pragma comment(lib, "OpenGL32.lib")
 #pragma comment(lib, "GLu32.lib")
-//#pragma comment(lib, "GLaux.lib")
-#pragma comment(lib, "Cg.lib")
-#pragma comment(lib, "CgGL.lib")
-#pragma comment(lib, "SDL_ttf.lib")
-#pragma comment(lib, "TaskKeyHook.lib")
 #endif
 
 #include <assert.h>
@@ -37,8 +32,6 @@
 #include "impl/LowLevelGraphicsSDL.h"
 #include "impl/SDLFontData.h"
 #include "impl/SDLTexture.h"
-//#include "impl/CGShader.h"
-//#include "impl/CGProgram.h"
 #include "impl/GLSLShader.h"
 #include "impl/GLSLProgram.h"
 #include "impl/VertexBufferOGL_Array.h"
@@ -52,15 +45,7 @@
 #include <OpenGL/OpenGL.h>
 #endif
 
-#if USE_SDL2
 #include "SDL2/SDL_syswm.h"
-#else
-#include "SDL/SDL_syswm.h"
-#endif
-
-#ifdef WIN32
-#include "impl/TaskKeyHook.h"
-#endif
 
 #ifndef WIN32
 #define CALLBACK __attribute__ ((__stdcall__))
@@ -363,18 +348,6 @@ namespace hpl {
 
 		mbInitHasBeenRun = true;
 
-
-		/*if(GLEW_ARB_debug_output)
-		{
-			glDebugMessageCallbackARB(&OGLDebugOutputCallback, NULL);
-			glEnable(GL_DEBUG_OUTPUT_SYNCHRONOUS_ARB);
-		}
-		else
-		{
-			Warning("OGL debug output not supported!\n");
-		}*/
-
-
 		return true;
 	}
 
@@ -658,7 +631,7 @@ namespace hpl {
     void cLowLevelGraphicsSDL::SetWindowCaption(const tString &asName)
     {
 #if SDL_VERSION_ATLEAST(2, 0, 0)
-        SDL_SetWindowTitle(mpScreen, asName.c_str());
+        SDL_SetWindowTitle(mpScreen, "Amnesia - A Machine For Pigs (NakedAMFP Edition)");
 #else
         SDL_WM_SetCaption(asName.c_str(), "");
 #endif

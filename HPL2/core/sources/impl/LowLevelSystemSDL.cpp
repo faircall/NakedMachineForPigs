@@ -22,9 +22,9 @@
 
 #ifdef WIN32
 #ifdef _DEBUG
-    #pragma comment(lib, "angelscriptd.lib")
+    #pragma comment(lib, "angelscript64d.lib")
 #else
-    #pragma comment(lib, "angelscript.lib")
+    #pragma comment(lib, "angelscript64.lib")
 #endif
 #define UNICODE
 #include <windows.h>
@@ -45,11 +45,7 @@
 #include "impl/SqScript.h"
 #include "system/Platform.h"
 
-#if USE_SDL2
 #include "SDL2/SDL.h"
-#else
-#include "SDL/SDL.h"
-#endif
 
 #include "impl/scriptstdstring.h"
 #include "impl/scriptarray.h"
