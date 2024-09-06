@@ -26,24 +26,7 @@
 #define NEWTON_MAJOR_VERSION 2
 #define NEWTON_MINOR_VERSION 31
 
-// force all not visual studio platform to be in library form
-#ifndef _MSC_VER
-	#ifndef _NEWTON_USE_LIB
-		#define _NEWTON_USE_LIB
-	#endif
-#endif
-
-
-#ifdef _NEWTON_USE_LIB
-	#define NEWTON_API
-#else
-	#ifdef _NEWTON_BUILD_DLL
-		#define NEWTON_API __declspec(dllexport)
-	#else
-		#define NEWTON_API __declspec(dllimport)
-	#endif
-#endif
-
+#define NEWTON_API
 
 #ifdef __USE_DOUBLE_PRECISION__
 	#define dFloat double

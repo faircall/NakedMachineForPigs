@@ -44,24 +44,6 @@ void TraceFuntionName (const char *name)
 #define TRACE_FUNTION(name)
 #endif
 
-
-#ifdef _NEWTON_BUILD_DLL
-	#if (defined (_MINGW_32_VER) || defined (_MINGW_64_VER))
-		int main(int argc, char* argv[])
-		{
-			return 0;
-		}
-	#endif
-	BOOL APIENTRY DllMain (HANDLE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved)
-	{
-		return TRUE;
-	}
-#endif
-
-
-
-//#define SAVE_COLLISION
-
 #ifdef SAVE_COLLISION
 void SerializeFile (void* serializeHandle, const void* buffer, size_t size)
 {
@@ -2959,6 +2941,7 @@ NewtonCollision* NewtonCreateCompoundCollisionFromMesh(const NewtonWorld* newton
 */
 }
 
+#ifndef _WIN32
 NEWTON_API NewtonCollision* NewtonCreateCompoundBreakable (const NewtonWorld* newtonWorld, int meshCount,
 														   const NewtonMesh* const solids[], const int* const shapeIDArray,
 														   const dFloat* const densities, const int* const internalFaceMaterial,
@@ -2975,7 +2958,7 @@ NEWTON_API NewtonCollision* NewtonCreateCompoundBreakable (const NewtonWorld* ne
 	collision->SetUserDataID(dgUnsigned32 (shapeID));
 	return (NewtonCollision*) collision;
 }
-
+#endif
 void NewtonCompoundBreakableResetAnchoredPieces (const NewtonCollision* compoundBreakable)
 {
 	dgCollision* collision;

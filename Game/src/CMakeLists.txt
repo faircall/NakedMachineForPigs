@@ -1,8 +1,6 @@
 cmake_minimum_required (VERSION 3.25)
 project(Lux)
 
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -fno-strict-aliasing")
-
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR})
 OPTION(USERDIR_RESOURCES "Allow using local userdirectory resources" ON)
 option(SYSTEMWIDE_RESOURCES "Allow system-wide installation of game resources" OFF)
@@ -11,11 +9,6 @@ set(MACOSX_BUNDLE_COPYRIGHT "Copyright © 2010-2013 Frictional Games")
 if (NOT DEFINED SYSTEMWIDE_RESOURCES_LOCATION)
   set (SYSTEMWIDE_RESOURCES_LOCATION "/usr/local/share/amnesia-amfp")
 endif (NOT DEFINED SYSTEMWIDE_RESOURCES_LOCATION)
-
-add_definitions(
-  -DUSE_OALWRAPPER
-  -DUSE_SDL2
-)
 
 add_subdirectory(../../HPL2/core engine_libraries)
 

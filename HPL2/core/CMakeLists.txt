@@ -107,12 +107,6 @@ IF(APPLE)
         sources/impl/PlatformUnix.cpp
         sources/impl/PlatformSDL.cpp
     )
-    IF(NOT USE_SDL2)
-        LIST(APPEND impl_sources
-            SDLMain.m
-            SDLMain.h
-        )
-    ENDIF()
 ELSEIF(LINUX)
     LIST(APPEND impl_sources
         sources/impl/PlatformUnix.cpp

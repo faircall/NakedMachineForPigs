@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxAchievementHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxAnimatedProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxAreaNodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_ColorGrading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Examine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Flashback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Infection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Ladder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Liquid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Rope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Sign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_SlimeDamage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Sticky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCommentaryIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCompletionCountHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxConfigHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCredits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCritter_Bug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCritter_Spider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxDebugHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxDemoEnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEffectHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEffectRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemyMover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemyPathfinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy_Child.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy_Grunt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy_ManPig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy_WaterLurker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxGlobalDataHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHandObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHandObject_LightSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHandObject_Melee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHelpFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHintHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInfectionHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInteractConnections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxItemType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxJournal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxLoadScreenHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_CustomStory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_KeyConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_LoadGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMapHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMapHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMessageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMoveState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMoveState_ClimbLedge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMoveState_Normal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMusicHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerHands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_DefaultBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_HandObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_Interact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractGrab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractLever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractPush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractRotateBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractSlide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractSwingDoor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractWheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_Ladder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_Normal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_UseItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPostEffects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPreMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProgressLogHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Chest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_CritterBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_EmotionStone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Lamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_LevelDoor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Lever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_MoveObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_MultiSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_NPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_PhoneBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Photocell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_SwingDoor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_VoiceFlashbackTrigger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Wheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSaveHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSavedEngineTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSavedGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSavedGameTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSavedMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxScriptHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxStaticProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\PostEffect_Cells.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxAchievementHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxAnimatedProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxAreaNodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_ColorGrading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Examine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Flashback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Infection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Ladder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Liquid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Rope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Sign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_SlimeDamage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxArea_Sticky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxBasePersonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCommentaryIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCompletionCountHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxConfigHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCredits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCritter_Bug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxCritter_Spider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxDebugHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxDemoEnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEffectHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEffectRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemyMover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemyPathfinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy_Child.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy_Grunt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy_ManPig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEnemy_WaterLurker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxGlobalDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHandObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHandObject_LightSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHandObject_Melee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHelpFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxHintHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxIdleBehavior_ManPig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInfectionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInsanityHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInteractConnections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxInventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxItemType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxJournal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxLoadScreenHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_CustomStory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_KeyConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_LoadGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMainMenu_Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMapHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMapHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMoveState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMoveState_ClimbLedge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMoveState_Normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxMusicHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerHands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_DefaultBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_HandObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_Interact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractGrab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractLever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractPush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractRotateBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractSlide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractSwingDoor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractWheel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_Ladder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_Normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPlayerState_UseItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPostEffects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxPreMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProgressLogHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Chest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_CritterBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_EmotionStone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Lamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_LevelDoor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Lever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_MoveObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_MultiSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_NPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_OilBarrel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_PhoneBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Photocell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_SwingDoor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_VoiceFlashbackTrigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxProp_Wheel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSaveHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSavedEngineTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSavedGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSavedGameTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxSavedMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxScriptHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxStaticProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\LuxTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\PostEffect_Cells.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\game\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E37B8995-4B82-3F6B-983F-BDF0D3C52748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{862D185C-79F1-39EC-80DF-E16B28339798}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\game\Lux.rc" />
+  </ItemGroup>
+</Project>

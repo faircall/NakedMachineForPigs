@@ -17,8 +17,6 @@
  * along with Amnesia: A Machine For Pigs.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#if USE_SDL2
-
 #include "impl/GamepadSDL2.h"
 
 #include "impl/LowLevelInputSDL.h"
@@ -426,4 +424,3 @@ namespace hpl {
 	//-----------------------------------------------------------------------
 
 }
-#endif // !USE_SDL2

@@ -37,7 +37,7 @@
 #include <io.h>
 #include <direct.h>
 
-#include "SDL/SDL.h"
+#include "SDL2/SDL.h"
 
 #include "impl/TimerSDL.h"
 #include "impl/ThreadWin32.h"

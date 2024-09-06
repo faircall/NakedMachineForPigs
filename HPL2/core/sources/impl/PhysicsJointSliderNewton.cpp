@@ -21,7 +21,6 @@
 
 #include "impl/PhysicsBodyNewton.h"
 #include "impl/PhysicsWorldNewton.h"
-
 #include "system/LowLevelSystem.h"
 
 namespace hpl {
