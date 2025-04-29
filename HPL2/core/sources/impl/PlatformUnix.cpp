@@ -28,11 +28,7 @@
 #include <sys/param.h>
 #include <fstream>
 
-#if USE_SDL2
 #include "SDL2/SDL.h"
-#else
-#include "SDL/SDL.h"
-#endif
 
 #if defined(__linux__) || defined(__FreeBSD__)
 #include <sys/types.h>

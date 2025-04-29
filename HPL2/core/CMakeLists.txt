@@ -98,7 +98,6 @@ file(GLOB impl_sources RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
     sources/impl/MeshLoaderColladaHelpers.cpp
     sources/impl/MeshLoaderColladaLoader.cpp
     sources/impl/MeshLoaderMSH.cpp
-    sources/impl/MeshLoaderFBX.cpp
 )
 
 IF(APPLE)
@@ -173,10 +172,6 @@ find_package(Devil REQUIRED)
 find_package(GLEW REQUIRED)
 find_package(LibXml2 REQUIRED)
 
-# CHANGE THIS TO SUIT YOUR INSTALLATION DIR!
-add_library(FBX STATIC IMPORTED)
-set_target_properties(FBX PROPERTIES IMPORTED_LOCATION /usr/local/fbx202034/lib/gcc/x64/release/libfbxsdk.a)
-
 # setup HPL2 compile target
 add_library(HPL2 STATIC
     ${common_sources}
@@ -195,8 +190,6 @@ set(HPL2_INCLUDES
     PUBLIC ../dependencies/include
     PUBLIC ../dependencies/AngelScript/include
     PUBLIC ../dependencies/Newton/include
-    # CHANGE THIS TO SUIT YOUR INSTALLATION DIR!
-    PUBLIC /usr/local/fbx202034/include/
 )
 
 target_include_directories(HPL2
@@ -207,7 +200,6 @@ if(LINUX)
   set(PLATFORM_LIBS
     pthread
     dl
-    FBX
     )
 endif()
 
