@@ -27,6 +27,21 @@
 #include "dgMemory.h"
 #include "dgSimd_Instrutions.h"
 
+// // Fix for MSVC alignment
+// #ifdef _MSC_VER
+//     #define DG_MSC_VECTOR_ALIGMENT __declspec(align(16))
+//     #define DG_GCC_VECTOR_ALIGMENT
+//     #ifndef DG_MSC_VECTOR_ALIGMENT
+//         #define DG_MSC_VECTOR_ALIGMENT __declspec(align(16))
+//     #endif
+// #else
+//     #define DG_MSC_VECTOR_ALIGMENT
+//     #define DG_GCC_VECTOR_ALIGMENT __attribute__((aligned(16)))
+//     #ifndef DG_GCC_VECTOR_ALIGMENT
+//         #define DG_GCC_VECTOR_ALIGMENT __attribute__((aligned(16)))
+//     #endif
+// #endif
+
 #define dgCheckVector(x) (dgCheckFloat(x[0]) && dgCheckFloat(x[1]) && dgCheckFloat(x[2]) && dgCheckFloat(x[3]))
 //#define dgCheckVector(x) true
 
@@ -37,6 +52,7 @@ class dgTemplateVector
 	dgTemplateVector ();
 	dgTemplateVector (const T *ptr);
 	dgTemplateVector (T m_x, T m_y, T m_z, T m_w);
+	explicit dgTemplateVector (T value);
 	dgTemplateVector Scale (T s) const;
 	dgTemplateVector Scale4 (T s) const;
 
@@ -89,6 +105,7 @@ class dgVector: public dgTemplateVector<dgFloat32>
 	dgVector (const dgTemplateVector<dgFloat32>& v);
 	dgVector (const dgFloat32 *ptr);
 	dgVector (dgFloat32 x, dgFloat32 y, dgFloat32 z, dgFloat32 w);
+	explicit dgVector (dgFloat32 value);
 
 	dgFloat32 DotProductSimd (const dgVector& A) const;
 	dgVector CrossProductSimd (const dgVector &A) const;
@@ -104,6 +121,7 @@ class dgBigVector: public dgTemplateVector<dgFloat64>
 	dgBigVector (const dgVector& v);
 	dgBigVector (const dgTemplateVector<dgFloat64>& v);
 	dgBigVector (const dgFloat32 *ptr);
+	explicit dgBigVector (dgFloat64 value);
 #ifndef __USE_DOUBLE_PRECISION__
 	dgBigVector (const dgFloat64 *ptr);
 #endif
@@ -134,6 +152,16 @@ dgTemplateVector<T>::dgTemplateVector (T x, T y, T z, T w)
 	m_y = y;
 	m_z = z;
 	m_w = w;
+}
+
+// Add implementation for single value constructor
+template<class T>
+dgTemplateVector<T>::dgTemplateVector (T value)
+{
+	m_x = value;
+	m_y = value;
+	m_z = value;
+	m_w = value;
 }
 
 
@@ -306,6 +334,13 @@ DG_INLINE dgVector::dgVector (const dgFloat32 *ptr)
 	_ASSERTE (dgCheckVector ((*this)));
 }
 
+// Add implementation for single value constructor
+DG_INLINE dgVector::dgVector (dgFloat32 value)
+	:dgTemplateVector<dgFloat32>(value)
+{
+	_ASSERTE (dgCheckVector ((*this)));
+}
+
 #ifdef DG_BUILD_SIMD_CODE
 DG_INLINE dgVector::dgVector(const simd_type& val)
 {
@@ -396,6 +431,12 @@ DG_INLINE dgBigVector::dgBigVector (dgFloat64 x, dgFloat64 y, dgFloat64 z, dgFlo
 	_ASSERTE (dgCheckVector ((*this)));
 }
 
+// Add implementation for single value constructor
+DG_INLINE dgBigVector::dgBigVector (dgFloat64 value)
+	:dgTemplateVector<dgFloat64>(value)
+{
+	_ASSERTE (dgCheckVector ((*this)));
+}
 
 #endif
 

@@ -19,8 +19,67 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
+#ifdef _MSC_VER
+    #ifndef WIN32_LEAN_AND_MEAN
+        #define WIN32_LEAN_AND_MEAN
+    #endif
+    #include <windows.h>
+    #include <intrin.h>
+#endif
+
+#ifdef _MSC_VER
+#define __attribute__(x)
+#endif
+
+#ifndef _SCALAR_ARITHMETIC_ONLY
+    #define _SCALAR_ARITHMETIC_ONLY
+#endif
+#ifdef DG_BUILD_SIMD_CODE
+    #undef DG_BUILD_SIMD_CODE
+#endif
+
 #if !defined(AFX_DGTYPES__42YH_HY78GT_YHJ63Y__INCLUDED_)
 #define AFX_DGTYPES__42YH_HY78GT_YHJ63Y__INCLUDED_
+
+// MSVC Compatibility fixes for dgTypes.h
+// Add this section to dgTypes.h to prevent macro redefinition warnings
+
+#ifdef _MSC_VER
+    // Disable macro redefinition warnings for MSVC
+    #pragma warning(push)
+    #pragma warning(disable: 4005)
+#endif
+
+// Only define alignment macros if not already defined
+#ifndef DG_MSC_VECTOR_ALIGMENT
+    #ifdef _MSC_VER
+        #define DG_MSC_VECTOR_ALIGMENT __declspec(align(16))
+    #else
+        #define DG_MSC_VECTOR_ALIGMENT
+    #endif
+#endif
+
+#ifndef DG_GCC_VECTOR_ALIGMENT
+    #ifdef __GNUC__
+        #define DG_GCC_VECTOR_ALIGMENT __attribute__((aligned(16)))
+    #else
+        #define DG_GCC_VECTOR_ALIGMENT
+    #endif
+#endif
+
+// Handle debug macros carefully
+#if !defined(_ASSERTE) && !defined(_INC_CRTDBG)
+    #ifdef _DEBUG
+        #include <crtdbg.h>
+    #else
+        #define _ASSERTE(expr) ((void)0)
+        #define _ASSERT(expr) ((void)0)
+    #endif
+#endif
+
+#ifdef _MSC_VER
+    #pragma warning(pop)
+#endif
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -646,7 +705,7 @@ dgCpuClass dgApi dgGetCpuType ();
 
 inline dgInt32 dgAtomicAdd (dgInt32* const addend, dgInt32 amount)
 {
-	#if (defined (_WIN_32_VER) || defined (_WIN_64_VER) || defined (_MINGW_32_VER) || defined (_MINGW_64_VER))
+	#if (defined (_WIN_32_VER) || defined (_WIN_64_VER) || defined (_MINGW_32_VER) || defined (_MSC_VER) || defined (_MINGW_64_VER))
 		return InterlockedExchangeAdd((long*) addend, long (amount));
 	#endif
 

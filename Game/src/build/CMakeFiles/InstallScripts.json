@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/cmake_install.cmake",
+		"C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/engine_libraries/cmake_install.cmake",
+		"C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/engine_libraries/OALWrapper/cmake_install.cmake",
+		"C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/engine_libraries/AngelScript/cmake_install.cmake",
+		"C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/engine_libraries/Newton/cmake_install.cmake",
+		"C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/game/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

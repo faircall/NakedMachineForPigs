@@ -81,6 +81,14 @@
 		#define simd_store_s(a,x)			{vFloatTuple __tmp; __tmp.v = x; a = __tmp.f[0];}
 
 	#else
+		// Add required SSE headers for x86/x64
+		#ifdef _MSC_VER
+			#include <xmmintrin.h>
+			#include <emmintrin.h>
+		#else
+			#include <xmmintrin.h>
+			#include <emmintrin.h>
+		#endif
 
 		#define simd_type					__m128
 		#define simd_env					dgUnsigned32
@@ -153,7 +161,69 @@
 
 	#endif
 
+#else
+	// Fallback definitions when SIMD is disabled
+	typedef struct { 
+		dgFloat32 m_x, m_y, m_z, m_w; 
+	} simd_type;
+	
+	typedef dgUnsigned32 simd_env;
+	
+	// Define dummy macros to prevent compilation errors
+	#define simd_get_ctrl()				0
+	#define simd_set_ctrl(a)			((void)0)
+	#define simd_set_FZ_mode()			((void)0)
+	#define simd_set1(a)				{a, a, a, a}
+	#define simd_set(x,y,z,w)			{x, y, z, w}
+	#define simd_load_s(a)				{a, a, a, a}
+	#define simd_load1_v(a)				{a, a, a, a}
+	#define simd_loadu_v(a)				{a, a, a, a}
+	
+	#define PURMUT_MASK(w, z, y, x)		0
+	#define simd_permut_v(a,b,mask)		a
+	
+	#define simd_or_v(a,b)				a
+	#define simd_and_v(a,b)				a
+	#define simd_xor_v(a,b)				a
+	#define simd_andnot_v(a,b)			a
+	#define simd_add_v(a,b)				a
+	#define simd_sub_v(a,b)				a
+	#define simd_min_v(a,b)				a
+	#define simd_max_v(a,b)				a
+	#define simd_mul_v(a,b)				a
+	#define simd_mul_add_v(a,b,c)		a
+	#define simd_mul_sub_v(a,b,c)		a
+	#define simd_cmpgt_v(a,b)			a
+	#define simd_cmpge_v(a,b)			a
+	#define simd_cmplt_v(a,b)			a
+	#define simd_cmple_v(a,b)			a
+	#define simd_div_v(a,b)				a
+	#define simd_rsqrt_v(a)				a
+	#define simd_store_v(a,ptr)			((void)0)
+	
+	#define simd_pack_lo_v(a,b)			a
+	#define simd_pack_hi_v(a,b)			a
+	#define simd_move_lh_v(a,b)			a
+	#define simd_move_hl_v(a,b)			a
+	
+	#define simd_add_s(a,b)				a
+	#define simd_sub_s(a,b)				a
+	#define simd_mul_s(a,b)				a
+	#define simd_min_s(a,b)				a
+	#define simd_max_s(a,b)				a
+	#define simd_mul_add_s(a,b,c)		a
+	#define simd_mul_sub_s(a,b,c)		a
+	#define simd_store_s(a,ptr)			((void)0)
+	#define simd_store_is(a)			0
+	
+	#define simd_cmpgt_s(a,b)			a
+	#define simd_cmpge_s(a,b)			a
+	#define simd_cmplt_s(a,b)			a
+	#define simd_cmple_s(a,b)			a
+	
+	#define simd_div_s(a,b)				a
+	#define simd_rcp_s(a)				a
+	#define simd_rsqrt_s(a)				a
 #endif
 
 #endif
-

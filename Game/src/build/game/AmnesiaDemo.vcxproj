@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6BD2BB60-A39B-35FE-994C-DA7E343FCA37}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>AmnesiaDemo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AmnesiaDemo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AmnesiaAMFP.bin.x86_64_Demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AmnesiaDemo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AmnesiaAMFP.bin.x86_64_Demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AmnesiaDemo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AmnesiaAMFP.bin.x86_64_Demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AmnesiaDemo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AmnesiaAMFP.bin.x86_64_Demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LUX_DEMO_VERSION;USE_GAMEPAD;USERDIR_RESOURCES;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LUX_DEMO_VERSION;USE_GAMEPAD;USERDIR_RESOURCES;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/weiju/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/Debug/AmnesiaAMFP.bin.x86_64_Demo.exe -installedDir C:/Users/weiju/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\engine_libraries\Debug\HPL2.lib;..\engine_libraries\OALWrapper\Debug\OALWrapper.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\vorbisfile.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\vorbis.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\ogg.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\OpenAL32.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\manual-link\SDL2main.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\SDL2.lib;..\engine_libraries\AngelScript\Debug\AngelScript.lib;..\engine_libraries\Newton\Debug\Newton.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\glew32d.lib;opengl32.lib;glu32.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\theora.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\DevIL.lib;z.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\libxml2.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\iconv.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\charset.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/Debug/AmnesiaAMFP.bin.x86_64_Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/Debug/AmnesiaAMFP.bin.x86_64_Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LUX_DEMO_VERSION;USE_GAMEPAD;USERDIR_RESOURCES;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LUX_DEMO_VERSION;USE_GAMEPAD;USERDIR_RESOURCES;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/weiju/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/Release/AmnesiaAMFP.bin.x86_64_Demo.exe -installedDir C:/Users/weiju/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\engine_libraries\Release\HPL2.lib;..\engine_libraries\OALWrapper\Release\OALWrapper.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\vorbisfile.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\vorbis.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\ogg.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\OpenAL32.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\manual-link\SDL2main.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\SDL2.lib;..\engine_libraries\AngelScript\Release\AngelScript.lib;..\engine_libraries\Newton\Release\Newton.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\glew32.lib;opengl32.lib;glu32.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\theora.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\DevIL.lib;z.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\libxml2.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\iconv.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\charset.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/Release/AmnesiaAMFP.bin.x86_64_Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/Release/AmnesiaAMFP.bin.x86_64_Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LUX_DEMO_VERSION;USE_GAMEPAD;USERDIR_RESOURCES;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LUX_DEMO_VERSION;USE_GAMEPAD;USERDIR_RESOURCES;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/weiju/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/MinSizeRel/AmnesiaAMFP.bin.x86_64_Demo.exe -installedDir C:/Users/weiju/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\engine_libraries\MinSizeRel\HPL2.lib;..\engine_libraries\OALWrapper\MinSizeRel\OALWrapper.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\vorbisfile.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\vorbis.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\ogg.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\OpenAL32.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\manual-link\SDL2main.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\SDL2.lib;..\engine_libraries\AngelScript\MinSizeRel\AngelScript.lib;..\engine_libraries\Newton\MinSizeRel\Newton.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\glew32.lib;opengl32.lib;glu32.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\theora.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\DevIL.lib;z.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\libxml2.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\iconv.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\charset.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/MinSizeRel/AmnesiaAMFP.bin.x86_64_Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/MinSizeRel/AmnesiaAMFP.bin.x86_64_Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LUX_DEMO_VERSION;USE_GAMEPAD;USERDIR_RESOURCES;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LUX_DEMO_VERSION;USE_GAMEPAD;USERDIR_RESOURCES;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\AngelScript\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\core\..\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\OALWrapper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/weiju/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/RelWithDebInfo/AmnesiaAMFP.bin.x86_64_Demo.exe -installedDir C:/Users/weiju/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\engine_libraries\RelWithDebInfo\HPL2.lib;..\engine_libraries\OALWrapper\RelWithDebInfo\OALWrapper.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\vorbisfile.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\vorbis.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\ogg.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\OpenAL32.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\manual-link\SDL2main.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\SDL2.lib;..\engine_libraries\AngelScript\RelWithDebInfo\AngelScript.lib;..\engine_libraries\Newton\RelWithDebInfo\Newton.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\glew32.lib;opengl32.lib;glu32.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\theora.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\DevIL.lib;z.lib;C:\Users\weiju\vcpkg\installed\x64-windows\lib\libxml2.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\iconv.lib;C:\Users\weiju\vcpkg\installed\x64-windows\debug\lib\charset.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/RelWithDebInfo/AmnesiaAMFP.bin.x86_64_Demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/RelWithDebInfo/AmnesiaAMFP.bin.x86_64_Demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src -BC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build --check-stamp-file C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src -BC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build --check-stamp-file C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src -BC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build --check-stamp-file C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src -BC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build --check-stamp-file C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxAchievementHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxAchievementHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxAnimatedProp.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxAnimatedProp.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxAreaNodes.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxAreaNodes.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_ColorGrading.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_ColorGrading.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Examine.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Examine.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Flashback.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Flashback.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Infection.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Infection.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Ladder.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Ladder.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Liquid.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Liquid.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Rope.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Rope.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Script.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Script.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Sign.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Sign.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_SlimeDamage.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_SlimeDamage.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Sticky.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxArea_Sticky.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxBase.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxBase.h" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxBasePersonal.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCommentaryIcon.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCommentaryIcon.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCompletionCountHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCompletionCountHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxConfigHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxConfigHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCredits.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCredits.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCritter_Bug.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCritter_Bug.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCritter_Spider.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxCritter_Spider.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxDebugHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxDebugHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxDemoEnd.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxDemoEnd.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEffectHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEffectHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEffectRenderer.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEffectRenderer.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemyMover.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemyMover.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemyPathfinder.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemyPathfinder.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy_Child.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy_Child.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy_Grunt.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy_Grunt.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy_ManPig.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy_ManPig.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy_WaterLurker.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEnemy_WaterLurker.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEntity.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxEntity.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxGlobalDataHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxGlobalDataHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHandObject.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHandObject.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHandObject_LightSource.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHandObject_LightSource.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHandObject_Melee.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHandObject_Melee.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHelpFuncs.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHelpFuncs.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHintHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxHintHandler.h" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxIdleBehavior_ManPig.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInfectionHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInfectionHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInputHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInputHandler.h" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInsanityHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInteractConnections.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInteractConnections.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInventory.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxInventory.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxItemType.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxItemType.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxJournal.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxJournal.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxLoadScreenHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxLoadScreenHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_CustomStory.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_CustomStory.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_KeyConfig.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_KeyConfig.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_LoadGame.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_LoadGame.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_Options.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_Options.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_Profile.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMainMenu_Profile.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMap.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMap.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMapHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMapHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMapHelper.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMapHelper.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMessageHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMessageHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMoveState.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMoveState.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMoveState_ClimbLedge.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMoveState_ClimbLedge.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMoveState_Normal.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMoveState_Normal.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMusicHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxMusicHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayer.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayer.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerHands.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerHands.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerHelpers.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerHelpers.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_DefaultBase.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_DefaultBase.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_HandObject.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_HandObject.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_Interact.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_Interact.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractGrab.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractGrab.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractLever.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractLever.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractPush.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractPush.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractRotateBase.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractRotateBase.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractSlide.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractSlide.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractSwingDoor.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractSwingDoor.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractWheel.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_InteractWheel.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_Ladder.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_Ladder.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_Normal.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_Normal.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_UseItem.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPlayerState_UseItem.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPostEffects.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPostEffects.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPreMenu.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxPreMenu.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProgressLogHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProgressLogHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Button.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Button.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Chest.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Chest.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_CritterBase.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_CritterBase.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_EmotionStone.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_EmotionStone.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Item.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Item.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Lamp.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Lamp.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_LevelDoor.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_LevelDoor.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Lever.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Lever.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_MoveObject.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_MoveObject.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_MultiSlider.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_MultiSlider.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_NPC.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_NPC.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Object.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Object.h" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_OilBarrel.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_PhoneBox.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_PhoneBox.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Photocell.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Photocell.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_SwingDoor.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_SwingDoor.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_VoiceFlashbackTrigger.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_VoiceFlashbackTrigger.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Wheel.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxProp_Wheel.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSaveHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSaveHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSavedEngineTypes.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSavedEngineTypes.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSavedGame.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSavedGame.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSavedGameTypes.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSavedGameTypes.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSavedMap.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxSavedMap.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxScriptHandler.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxScriptHandler.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxStaticProp.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxStaticProp.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxTypes.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\LuxTypes.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\Main.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\PostEffect_Cells.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\PostEffect_Cells.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\StdAfx.cpp" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\StdAfx.h" />
+    <ClInclude Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\game\resource.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\ZERO_CHECK.vcxproj">
+      <Project>{6AE16F92-8738-30B4-8C9B-7D53AE24D04C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\AngelScript\AngelScript.vcxproj">
+      <Project>{F1A873ED-656F-3B44-B708-1F2FC5EB9302}</Project>
+      <Name>AngelScript</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\HPL2.vcxproj">
+      <Project>{CCC6338A-FFA6-315C-B7FE-BA8AC1185D2C}</Project>
+      <Name>HPL2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\Newton.vcxproj">
+      <Project>{3B32464D-505A-3E95-BEFD-25D5731236B3}</Project>
+      <Name>Newton</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\OALWrapper\OALWrapper.vcxproj">
+      <Project>{02F7BC20-34FC-3B23-A661-90AEB0B5AA00}</Project>
+      <Name>OALWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

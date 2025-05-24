@@ -1,133 +1,133 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_atomic.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_atomic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_builder.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_builder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_bytecode.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_bytecode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_arm.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_arm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_mips.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_mips.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_ppc_64.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_ppc_64.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_ppc.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_ppc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_sh4.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_sh4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x64_gcc.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x64_gcc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x64_mingw.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x64_mingw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x64_msvc.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x64_msvc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x86.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x86.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_xenon.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_xenon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_compiler.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_compiler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_configgroup.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_configgroup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_context.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_context.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_datatype.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_datatype.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_gc.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_gc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_generic.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_generic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_globalproperty.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_globalproperty.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_memory.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_module.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_objecttype.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_objecttype.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_outputbuffer.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_outputbuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_parser.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_restore.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_restore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptcode.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptcode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptengine.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptengine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptfunction.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptfunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptnode.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptnode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptobject.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_scriptobject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_string_util.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_string_util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_string.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_string.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_thread.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_tokenizer.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_tokenizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_typeinfo.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_typeinfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_variablescope.cpp">
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_variablescope.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_arm_gcc.S" />
-    <None Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_arm_msvc.asm" />
-    <None Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_arm_xcode.S" />
-    <None Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x64_msvc_asm.asm" />
+    <None Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_arm_gcc.S" />
+    <None Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_arm_msvc.asm" />
+    <None Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_arm_xcode.S" />
+    <None Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\AngelScript\sources\as_callfunc_x64_msvc_asm.asm" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{862D185C-79F1-39EC-80DF-E16B28339798}</UniqueIdentifier>
+      <UniqueIdentifier>{856F8A8A-EA82-3BF1-9D72-57F342768FE6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -19,6 +19,12 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
+#ifdef _MSC_VER
+// make sure MSVC sees the intrinsics & the right align decl
+#   include <immintrin.h>
+#   define  aligned __declspec(align(16))
+#endif
+
 #if !defined(AFX_STDAFX_H__FGRTY_5GR39H_98TQ__INCLUDED_)
 #define AFX_STDAFX_H__FGRTY_5GR39H_98TQ__INCLUDED_
 

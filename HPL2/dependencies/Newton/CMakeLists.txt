@@ -8,6 +8,9 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/core)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/physics)
 
+add_definitions(-D_SCALAR_ARITHMETIC_ONLY)
+
+
 add_library(Newton STATIC
   core/dg.cpp
   core/dgAABBPolygonSoup.cpp

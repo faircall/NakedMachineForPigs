@@ -22,8 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F294E1D1-8C6F-37CE-908D-F324E334A044}</ProjectGuid>
+    <ProjectGuid>{3B32464D-505A-3E95-BEFD-25D5731236B3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>Newton</ProjectName>
@@ -54,50 +55,52 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Newton.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Newton</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)..\..\..\..\..\HPL2\dependencies\win64\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Newton.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Newton</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Newton.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Newton</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Newton.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Newton</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SCALAR_ARITHMETIC_ONLY;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SCALAR_ARITHMETIC_ONLY;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,26 +113,29 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\..\..\HPL2\dependencies\Newton\include;$(ProjectDir)..\..\..\..\..\HPL2\dependencies\Newton\core;$(ProjectDir)..\..\..\..\..\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);_NEWTON_BUILD_DLL;__x86_64__;_WIN_64_VER;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCALAR_ARITHMETIC_ONLY;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCALAR_ARITHMETIC_ONLY;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -142,26 +148,29 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCALAR_ARITHMETIC_ONLY;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCALAR_ARITHMETIC_ONLY;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,25 +183,28 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCALAR_ARITHMETIC_ONLY;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCALAR_ARITHMETIC_ONLY;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\include;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core;C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -204,159 +216,141 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dg.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgAABBPolygonSoup.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgConvexHull3d.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgConvexHull4d.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgCRC.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgDebug.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgDelaunayTetrahedralization.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgGeneralMatrix.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgGeneralVector.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgGoogol.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgIntersections.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgMatrix.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgMemory.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgNode.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgPolygonSoupBuilder.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgPolyhedra.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgPolyhedraMassProperties.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgQuaternion.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgRandom.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgRef.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgRefCounter.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgSmallDeterminant.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgSPDMatrix.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgSphere.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgThreads.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgTree.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgTypes.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBallConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBilateralConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBody.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBodyMasterList.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBroadPhaseCollision.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollision.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionBox.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionBVH.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCapsule.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionChamferCylinder.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCompound.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCompoundBreakable.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCone.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionConvex.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionConvexHull.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionConvexModifier.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCylinder.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionEllipse.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionHeightField.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionMesh.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionNull.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionScene.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionSphere.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionUserMesh.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgConnectorConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgContact.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCorkscrewConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgHingeConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgMeshEffect.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgMeshEffect2.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgMinkowskiConv.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgNarrowPhaseCollision.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgPointToCurveConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgSlidingConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgUniversalConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgUpVectorConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgUserConstraint.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgWorld.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgWorldDynamicUpdate.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\newton\Newton.cpp" />
-    <ClCompile Include="C:\Users\Ad4m\Downloads\Development\NakedMachineForPigs\HPL2\dependencies\Newton\newton\NewtonClass.cpp" />
+    <CustomBuild Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/HPL2/dependencies/Newton/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src -BC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build --check-stamp-file C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/engine_libraries/Newton/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/HPL2/dependencies/Newton/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src -BC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build --check-stamp-file C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/engine_libraries/Newton/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/HPL2/dependencies/Newton/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src -BC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build --check-stamp-file C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/engine_libraries/Newton/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/HPL2/dependencies/Newton/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src -BC:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build --check-stamp-file C:/Users/weiju/Documents/GitHub/NakedMachineForPigs/Game/src/build/engine_libraries/Newton/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\engine_libraries\Newton\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dg.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgAABBPolygonSoup.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgArray.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgConvexHull3d.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgConvexHull4d.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgCRC.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgDebug.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgDelaunayTetrahedralization.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgGeneralMatrix.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgGeneralVector.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgGoogol.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgGraph.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgHeap.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgIntersections.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgList.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgMatrix.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgMemory.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgNode.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgPathFinder.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgPlane.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgPolygonSoupBuilder.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgPolygonSoupDatabase.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgPolyhedra.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgPolyhedraMassProperties.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgQuaternion.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgRandom.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgRef.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgRefCounter.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgRtti.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgSimd_Instrutions.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgSmallDeterminant.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgSPDMatrix.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgSphere.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgStack.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgStdafx.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgThreads.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgTree.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgTypes.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\core\dgVector.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\include\Newton.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\newton\NewtonClass.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\newton\NewtonStdAfx.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgBallConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgBilateralConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgBody.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgBodyMasterList.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgBroadPhaseCollision.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollision.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionBox.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionBVH.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionCapsule.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionChamferCylinder.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionCompound.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionCompoundBreakable.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionCone.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionConvex.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionConvexHull.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionConvexModifier.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionCylinder.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionEllipse.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionHeightField.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionMesh.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionNull.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionScene.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionSphere.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCollisionUserMesh.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgConnectorConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgContact.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgCorkscrewConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgHingeConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgMeshEffect.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgMinkowskiConv.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgPhysics.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgPhysicsStdafx.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgPointToCurveConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgSlidingConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgUniversalConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgUpVectorConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgUserConstraint.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgWorld.h" />
-    <ClInclude Include="..\..\..\..\..\HPL2\dependencies\Newton\physics\dgWorldDynamicUpdate.h" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dg.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgAABBPolygonSoup.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgConvexHull3d.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgConvexHull4d.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgCRC.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgDebug.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgDelaunayTetrahedralization.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgGeneralMatrix.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgGeneralVector.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgGoogol.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgIntersections.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgMatrix.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgMemory.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgNode.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgPolygonSoupBuilder.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgPolyhedra.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgPolyhedraMassProperties.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgQuaternion.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgRandom.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgRef.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgRefCounter.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgSmallDeterminant.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgSPDMatrix.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgSphere.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgThreads.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgTree.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\core\dgTypes.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBallConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBilateralConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBody.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBodyMasterList.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgBroadPhaseCollision.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollision.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionBox.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionBVH.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCapsule.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionChamferCylinder.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCompound.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCompoundBreakable.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCone.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionConvex.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionConvexHull.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionConvexModifier.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionCylinder.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionEllipse.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionHeightField.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionMesh.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionNull.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionScene.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionSphere.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCollisionUserMesh.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgConnectorConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgContact.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgCorkscrewConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgHingeConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgMeshEffect.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgMeshEffect2.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgMinkowskiConv.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgNarrowPhaseCollision.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgPointToCurveConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgSlidingConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgUniversalConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgUpVectorConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgUserConstraint.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgWorld.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\physics\dgWorldDynamicUpdate.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\newton\Newton.cpp" />
+    <ClCompile Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\HPL2\dependencies\Newton\newton\NewtonClass.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\weiju\Documents\GitHub\NakedMachineForPigs\Game\src\build\ZERO_CHECK.vcxproj">
+      <Project>{6AE16F92-8738-30B4-8C9B-7D53AE24D04C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
