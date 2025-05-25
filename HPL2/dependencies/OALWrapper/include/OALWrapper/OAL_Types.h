@@ -61,10 +61,10 @@ struct SDL_mutex;
 struct SDL_Thread;
 
 // This expects the headers from the OALWrapper source (to keep things consistent and clean)
-#include <AL/al.h>
-#include <AL/alc.h>
-#include <AL/alext.h>
-#include <AL/efx.h>
+#include "AL/al.h"
+#include "AL/alc.h"
+#include "AL/alext.h"
+#include "AL/efx.h"
 
 typedef enum
 {

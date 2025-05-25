@@ -1,7 +1,8 @@
+//#define SDL_MAIN_HANDLED
 #include "OALWrapper/OAL_Funcs.h"
 #include "OALWrapper/OAL_Stream.h"
 
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 
 #include <string>
 #include <cstdlib>
@@ -56,7 +57,7 @@ public:
     void Init()
     {
         mThreadAlive = true;
-        mUpdaterThread = SDL_CreateThread(Playlist::UpdaterThread, this);
+        mUpdaterThread = SDL_CreateThread(Playlist::UpdaterThread, "Playlist Updater", this);
     }
 
     void playSong()
@@ -115,7 +116,7 @@ void sighandler(int sig)
     done = true;
 }
 
-int main (int argc, const char *const argv[])
+int main (int argc, char **argv)
 {
 	if ( argc <= 1 )
 	{
