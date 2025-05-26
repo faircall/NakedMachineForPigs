@@ -106,6 +106,13 @@ IF(APPLE)
         sources/impl/PlatformUnix.cpp
         sources/impl/PlatformSDL.cpp
     )
+ELSEIF(WIN32)
+    LIST(APPEND impl_sources
+        sources/impl/PlatformWin32.cpp
+        sources/impl/MutexWin32.cpp
+        sources/impl/ThreadWin32.cpp
+        sources/impl/PlatformSDL.cpp
+    )
 ELSEIF(LINUX)
     LIST(APPEND impl_sources
         sources/impl/PlatformUnix.cpp
